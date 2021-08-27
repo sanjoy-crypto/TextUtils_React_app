@@ -1,0 +1,39 @@
+.textArea{
+    position: relative;
+}
+.cross{
+    position: absolute;
+    top:53px;
+    right:15px;
+    padding:5px 10px;
+    background: transparent;
+    border:1px solid lightgray;
+    border-radius: 5px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+    color: red;
+}
+.cross:hover{
+    background: red;
+    color:#fff;
+}
+h3,h4{
+    font-weight: 500;
+}
+button{
+    margin-right: 10px;
+}
+.alert {
+    position: absolute;
+    padding: 1rem 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    width: fit-content;
+    right:20px;
+    top:65px;
+    z-index: 999;
+}
+.bg-light{
+    background-color: lightgray !important;
+}
